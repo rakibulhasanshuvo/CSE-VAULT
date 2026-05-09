@@ -1,0 +1,66 @@
+{\rtf1\ansi\ansicpg1252\deff0
+{\fonttbl{\f0\fswiss\fcharset0 Arial;}{\f1\fmodern\fcharset0 Courier New;}}
+\b\fs32 Structured Programming: C Fundamentals (Midterm Notes)\b0\fs24\par
+\par
+\b\fs28 1. Problem Solving and Methodology (Week 1)\b0\fs24\par
+\bullet  \b Steps:\b0  Problem definition -> Analysis -> Solution design -> Implementation -> Testing/Evaluation.\par
+\bullet  \b Algorithm:\b0  A finite sequence of well-defined steps to solve a problem.\par
+\bullet  \b Tools:\b0 \par
+    - \b Flowcharts:\b0  Graphical representation of logic.\par
+    - \b Pseudocode:\b0  Structured, English-like description of the code.\par
+\bullet  \b Debugging:\b0  Identifying and fixing errors (Syntax, Runtime, Logical).\par
+\par
+\b\fs28 2. Programming Language Fundamentals & Paradigms (Week 2)\b0\fs24\par
+\bullet  \b Definition:\b0  A system of communication used to direct computer activities.\par
+\bullet  \b Classification by Level:\b0 \par
+    - \b Low-Level:\b0  1GL (Machine Language), 2GL (Assembly Language).\par
+    - \b High-Level:\b0  User-friendly, English-like syntax (3GL: C, Pascal; 4GL: SQL).\par
+\bullet  \b Translators:\b0 \par
+    - \b Assembler:\b0  Assembly to machine code.\par
+    - \b Compiler:\b0  Translates entire program at once; faster execution (C, C++).\par
+    - \b Interpreter:\b0  Translates line-by-line; slower execution (Python).\par
+\bullet  \b Programming Paradigms:\b0 \par
+    - \b Structured:\b0  Structured control flows, no goto statements.\par
+    - \b Procedural:\b0  Divided into procedures or functions. Top-down.\par
+    - \b Object-Oriented (OOP):\b0  Objects (data + methods). Bottom-up.\par
+\par
+\b\fs28 3. Introduction to C, Tokens & Data Types (Week 3)\b0\fs24\par
+\bullet  \b History:\b0  1972 by Dennis Ritchie (Bell Labs) for UNIX.\par
+\bullet  \b Program Structure:\b0  Preprocessor Directives, Main Function, Statements (end with ;).\par
+\bullet  \b Tokens:\b0  Keywords, identifiers, constants, strings, operators.\par
+\bullet  \b Identifiers:\b0  User-defined names. Must start with letter or _, case-sensitive.\par
+\bullet  \b Data Types:\b0 \par
+    - \b int:\b0  4 bytes, %d (e.g., int age = 20;)\par
+    - \b float:\b0  4 bytes, %f (e.g., float pi = 3.14;)\par
+    - \b double:\b0  8 bytes, %lf (e.g., double e = 2.718;)\par
+    - \b char:\b0  1 byte, %c (e.g., char grade = 'A';)\par
+\par
+\b\fs28 4. Expressions, Operators, and I/O (Week 4)\b0\fs24\par
+\bullet  \b Expression/Statement:\b0  Expression terminated by semicolon (;).\par
+\bullet  \b Operators:\b0 \par
+    - \b Arithmetic:\b0  +, -, *, /, % (modulus).\par
+    - \b Relational:\b0  ==, !=, >, <, >=, <=\par
+    - \b Logical:\b0  && (AND), || (OR), ! (NOT).\par
+    - \b Increment/Decrement:\b0  ++ and --\par
+\bullet  \b I/O Functions:\b0 \par
+    - \f1 printf("Age: %d\\n", age);\f0  - Outputs to screen.\par
+    - \f1 scanf("%d", &age);\f0  - Reads from keyboard.\par
+\bullet  \b Library Functions:\b0  <stdio.h>, <math.h>, <string.h>\par
+\par
+\b\fs28 5. Control Structures & Loops (Week 5)\b0\fs24\par
+\bullet  \b Conditional Structures:\b0 \par
+    - \b if-else:\b0  Two paths based on condition.\par
+    - \b switch:\b0  Selects one of many blocks. Cleaner than if-else chains.\par
+\bullet  \b Loops:\b0 \par
+    - \b for Loop:\b0  Exact iterations are known.\par
+    - \b while Loop:\b0  Entry-controlled. Unknown iterations.\par
+    - \b do-while Loop:\b0  Exit-controlled. Executes at least once.\par
+\par
+\b\fs28 6. Functions (Week 5)\b0\fs24\par
+\bullet  \b Definition:\b0  Self-contained block to perform a task.\par
+\bullet  \b Core Elements:\b0 \par
+    1. \b Prototype:\b0  int add(int a, int b);\par
+    2. \b Definition:\b0  int add(int a, int b) \{ return a + b; \}\par
+    3. \b Call:\b0  int result = add(5, 3);\par
+\bullet  \b Parameters vs. Arguments:\b0  Parameters in declaration, Arguments are passed values.\par
+}
