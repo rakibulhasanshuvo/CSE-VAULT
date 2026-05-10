@@ -25,3 +25,28 @@ This topic applies integration to find real-world spatial quantities: lengths of
 
 ---
 > **💡 Pro Tip:** Draw a quick schematic of the region first! Visualizing whether you need to integrate with respect to $x$ or $y$ prevents setup errors that turn simple math into algebraic nightmares.
+
+---
+
+## 📖 Deep Research Study Guide
+
+## **Topic 11: Geometric Applications of Integration (Areas, Volumes, and Arc Lengths)**
+
+### **Theoretical Framework and Rules**
+
+Geometric applications translate abstract calculus into exact physical, spatial models. While computing basic area merely sums orthogonal infinitesimals (![](../assets/image387.png)) across an axis, calculating arc length invokes a continuous application of the Pythagorean theorem across an infinitesimal curve trajectory: ![](../assets/image388.png).43 Surface areas and volumes of revolution expand this metric into solid geometry by integrating localized cross-sectional perimeters and areas (using disk, washer, or cylindrical shell methods). Analytically, this embodies the accumulation of a metric tensor across a continuous parameter space. The mathematical capability to synthesize highly non-linear, irregular boundaries into exact scalar volumetric measurements serves as the foundational mathematics for fluid capacitance, civil engineering CAD software, and topological planetary surveying.
+
+### **Foundational Problem Set**
+
+| Problem | Theory, Formula, and Solution |
+| :---- | :---- |
+| **1\. Find arc length of ![](../assets/image69.png) from ![](../assets/image139.png) to ![](../assets/image139.png).** 43 | **Rule:** Linear arc length ![](../assets/image389.png). **Solution:** ![](../assets/image390.png). ![](../assets/image391.png). |
+| **2\. Find arc length of ![](../assets/image392.png) from ![](../assets/image208.png) to ![](../assets/image393.png).** 43 | **Rule:** Integration with respect to ![](../assets/image27.png). **Solution:** ![](../assets/image394.png). ![](../assets/image395.png). |
+| **3\. Find arc length of ![](../assets/image396.png) from ![](../assets/image139.png) to ![](../assets/image139.png).** 43 | **Rule:** Power rule arc length. **Solution:** ![](../assets/image397.png). ![](../assets/image398.png). |
+| **4\. Find arc length of ![](../assets/image399.png) from ![](../assets/image139.png) to ![](../assets/image139.png).** 43 | **Rule:** Perfect square reduction. **Solution:** ![](../assets/image400.png). ![](../assets/image401.png). |
+| **5\. Arc length of ![](../assets/image402.png) from ![](../assets/image139.png) to ![](../assets/image139.png).** 43 | **Rule:** Expand and simplify under radical. **Solution:** Derivation simplifies to a perfect square integral yielding an exact scalar value of ![](../assets/image403.png). |
+| **6\. Find arc length of ![](../assets/image404.png) from ![](../assets/image393.png) to ![](../assets/image393.png).** 43 | **Rule:** Y-axis curve measurement. **Solution:** Similar evaluation to problem 3, yielding ![](../assets/image405.png). |
+| \*\*7. Length of rope $y \= 5 | \\sin(x\\pi/5) |
+| **8\. Surface area of ![](../assets/image406.png) revolved around x-axis, $x \\in $.** 43 | **Rule:** ![](../assets/image407.png). **Solution:** Evaluated over bounds, the integration outputs ![](../assets/image408.png). |
+| **9\. Surface area of ![](../assets/image406.png) revolved around x-axis, $x \\in $.** 43 | **Rule:** Radical reduction. **Solution:** Integrating ![](../assets/image409.png) simplifies out the ![](../assets/image22.png), yielding exactly ![](../assets/image410.png). |
+| **10\. Surface area of ![](../assets/image383.png) revolved around y-axis, $x \\in $.** 43 | **Rule:** Revolution around ordinate. **Solution:** Evaluating ![](../assets/image411.png) utilizing u-substitution yields ![](../assets/image412.png). |
